@@ -1,0 +1,28 @@
+Image {
+  margin-bottom: 20;
+  height: 70;
+}
+Button, TextField {
+  margin-bottom: 10;
+}
+.btn-primary {
+  background-color: #CB1D00;
+  margin-left: 0;
+  margin-right: 0;
+}
+TextField {
+  placeholder-color: rgb(209, 161, 199);
+  color: black;
+}
+.dark {
+  background-color: #cc2e49;
+}
+.dark TextField {
+  color:  rgb(248, 236, 239);
+}
+FlexboxLayout {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("~/images/background.jpg");
+  }
